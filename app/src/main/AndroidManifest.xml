@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.home.graham.smokingcessation">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,10 +19,8 @@
             </intent-filter>
         </activity>
 
-        <uses-permission android:name="android.permission.INTERNET" />
-
         <activity android:name=".LoginActivity" />
-        <activity android:name=".SurveyActivity"></activity>
+        <activity android:name=".SurveyActivity" />
     </application>
 
 </manifest>
