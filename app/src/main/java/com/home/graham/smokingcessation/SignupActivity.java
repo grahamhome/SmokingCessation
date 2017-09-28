@@ -85,6 +85,7 @@ public class SignupActivity extends AppCompatActivity {
                             android.util.Log.d(TAG,"Authentication failed." + task.getException());
 
                         } else {
+                            // TODO: Add logic here to determine if survey or tracking activity should be launched
                             startActivity(new Intent(SignupActivity.this, SurveyActivity.class));
                             finish();
                         }

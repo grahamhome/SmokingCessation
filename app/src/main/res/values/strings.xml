@@ -12,4 +12,7 @@
     <string name="err_msg_required">Required</string>
     <string name="err_msg_password">Enter a valid password with a minimum of 6 characters.</string>
     <string name="btn_link_to_signup">Don\'t have an account? Sign Up here</string>
+    <string name="submit_btn">Submit</string>
+    <string name="submission_fail">Come on, give me something to work with!</string>
+    <string name="submission_success">Submission received!</string>
 </resources>

@@ -87,6 +87,7 @@ public class LoginActivity extends AppCompatActivity {
                             Toast.makeText(LoginActivity.this, getString(R.string.auth_failed), Toast.LENGTH_LONG).show();
 
                         } else {
+                            // TODO: Logic here to determine if survey or tracking activity should be launched
                             Intent intent = new Intent(LoginActivity.this, SurveyActivity.class);
                             startActivity(intent);
                             finish();
